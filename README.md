@@ -1,5 +1,5 @@
 # expandUser.js
-python os.path.expandUser equivalent in nodejs
+python os.path.expanduser equivalent in nodejs
 
 # Install
 ```sh

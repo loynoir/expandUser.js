@@ -1,7 +1,7 @@
 {
   "name": "expandUser",
   "version": "1.0.0",
-  "description": "python os.path.expandUser equivalent in nodejs",
+  "description": "python os.path.expanduser equivalent in nodejs",
   "main": "expandUser.js",
   "scripts": {
     "test": "env NODE_PATH=.:${NODE_PATH} node example.js"
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "expandUser",
-    "os.path.expandUser"
+    "os.path.expanduser"
   ],
   "author": "loynoir",
   "license": "MIT",
