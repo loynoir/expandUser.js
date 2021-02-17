@@ -1,14 +1,14 @@
-# expanduser.js
-python os.path.expanduser equivalent in nodejs
+# expandUser.js
+python os.path.expandUser equivalent in nodejs
 
 # Install
 ```sh
-npm i https://github.com/loynoir/expanduser.js
+npm i https://github.com/loynoir/expandUser.js
 ```
 
 # Example
 
 ```js
-const expanduser = require('expanduser');
-console.log(expanduser('~/~/foo/bar/'));
+const expandUser = require('expandUser');
+console.log(expandUser('~/~/foo/bar/'));
 ```

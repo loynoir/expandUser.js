@@ -1,5 +1,5 @@
-const expanduser = require('expanduser');
-console.log(expanduser('~/~/foo/bar/'));
+const expandUser = require('expandUser');
+console.log(expandUser('~/~/foo/bar/'));
 
 [
   '~',
@@ -12,5 +12,5 @@ console.log(expanduser('~/~/foo/bar/'));
   'foo~',
   'foo~bar',
 ].forEach((x) => {
-  console.log(x, '=>', expanduser(x));
+  console.log(x, '=>', expandUser(x));
 });

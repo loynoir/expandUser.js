@@ -4,7 +4,7 @@ const path = require('path');
 const tildesep = `~${path.sep}`;
 const Ltildesep = tildesep.length;
 
-module.exports = function expanduser(x) {
+module.exports = function expandUser(x) {
   const home = homedir();
   if (x === '~') {
     return home;

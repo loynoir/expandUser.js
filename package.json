@@ -1,23 +1,23 @@
 {
-  "name": "expanduser",
+  "name": "expandUser",
   "version": "1.0.0",
-  "description": "python os.path.expanduser equivalent in nodejs",
-  "main": "expanduser.js",
+  "description": "python os.path.expandUser equivalent in nodejs",
+  "main": "expandUser.js",
   "scripts": {
     "test": "env NODE_PATH=.:${NODE_PATH} node example.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loynoir/expanduser.js.git"
+    "url": "git+https://github.com/loynoir/expandUser.js.git"
   },
   "keywords": [
-    "expanduser",
-    "os.path.expanduser"
+    "expandUser",
+    "os.path.expandUser"
   ],
   "author": "loynoir",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loynoir/expanduser.js/issues"
+    "url": "https://github.com/loynoir/expandUser.js/issues"
   },
-  "homepage": "https://github.com/loynoir/expanduser.js#readme"
+  "homepage": "https://github.com/loynoir/expandUser.js#readme"
 }
