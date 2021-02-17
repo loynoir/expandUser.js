@@ -1,4 +1,5 @@
 const expanduser = require('expanduser');
+console.log(expanduser('~/~/foo/bar/'));
 
 [
   '~',
