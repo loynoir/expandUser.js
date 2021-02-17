@@ -1,0 +1,23 @@
+{
+  "name": "expanduser",
+  "version": "1.0.0",
+  "description": "python os.path.expanduser equivalent in nodejs",
+  "main": "expanduser.js",
+  "scripts": {
+    "test": "env NODE_PATH=.:${NODE_PATH} node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loynoir/expanduser.js.git"
+  },
+  "keywords": [
+    "expanduser",
+    "os.path.expanduser"
+  ],
+  "author": "loynoir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loynoir/expanduser.js/issues"
+  },
+  "homepage": "https://github.com/loynoir/expanduser.js#readme"
+}
