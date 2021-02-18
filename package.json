@@ -4,7 +4,7 @@
   "description": "python os.path.expanduser equivalent in nodejs",
   "main": "expandUser.js",
   "scripts": {
-    "test": "env NODE_PATH=.:${NODE_PATH} node example.js"
+    "test": "env NODE_PATH=.:\"${NODE_PATH}\" node example.js"
   },
   "repository": {
     "type": "git",
