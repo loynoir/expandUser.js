@@ -2,7 +2,10 @@
   "name": "expandUser",
   "version": "1.0.0",
   "description": "python os.path.expanduser equivalent in nodejs",
-  "main": "expandUser.js",
+  "main": "lib/expandUser.js",
+  "module": "lib/es/expandUser.js",
+  "browser": "dst/expandUser.min.js",
+  "entry": "dst/es/expandUser.min.js",
   "scripts": {
     "test": "env NODE_PATH=.:\"${NODE_PATH}\" node example.js"
   },
